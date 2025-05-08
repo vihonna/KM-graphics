@@ -1,0 +1,44 @@
+# Kongsberg Maritime Matplotlib style - custom colormap
+
+### FONT
+font.family : sans-serif
+font.sans-serif : Trebuchet MS, Arial, sans-serif
+font.size : 10.0
+
+### AXES
+axes.grid : True
+axes.titlesize : large
+axes.labelsize : medium
+axes.formatter.limits : -4, 4
+axes.formatter.use_mathtext : True
+axes.formatter.useoffset : False
+axes.prop_cycle : cycler('marker', ['None', 'o', 'D', 's', '^']) * cycler('linestyle', ['-', '--', '-.', ':']) * cycler('color', ['00205b','0057a3','f6bb01', 'f39d04','e30613'])  
+
+
+
+### LINES
+lines.linewidth : 1.5
+lines.markersize : 6
+
+### GRIDS
+grid.alpha : 0.50
+
+### LEGEND
+legend.loc : upper right
+legend.frameon : True
+legend.framealpha : 0.8
+legend.facecolor : inherit
+legend.edgecolor : 1.0
+legend.numpoints : 1
+legend.scatterpoints : 1
+legend.fontsize : medium
+
+### FIGURE
+figure.titlesize : x-large
+figure.titleweight : normal
+figure.figsize : 8.27, 5.83  # A5 landscape
+
+
+### Spare colors
+### '#00205b', '#002967', '#003272', '#003b7f', '#00448a', '#004e97', '#0057a3', '#1a6595', '#40767c', '#698860', '#8e9847', '#b7aa2b', '#ddbb12', '#f6bb01', '#f39d04', '#ef7e07', '#ec600a', '#e9410d', '#e62310', '#e30613'
+### From dark blue to blue to orange to red
