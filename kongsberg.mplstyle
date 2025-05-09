@@ -12,7 +12,7 @@ axes.labelsize : medium
 axes.formatter.limits : -4, 4
 axes.formatter.use_mathtext : True
 axes.formatter.useoffset : False
-axes.prop_cycle : cycler('marker', ['None', 'o', 'D', 's', '^']) * cycler('linestyle', ['-', '--', '-.', ':']) * cycler('color', ['00205b','0057a3','f6bb01', 'f39d04','e30613'])  
+axes.prop_cycle : cycler('marker', ['None', 'o', 'D', 's', '^']) * cycler('linestyle', ['-', '--', '-.', ':']) * cycler('color', ['00205b','e30613','0057a3','f6bb01', 'f39d04'])  
 
 
 
